@@ -49,7 +49,45 @@
       }
 
       .nav-links a:hover {
-        color: #3498db;
+        color: #2c5e80;
+      }
+
+      /* Hero Section - Flexbox */
+      .hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(129deg, #667eea 10%, #733 90%);
+        color: white;
+        padding: 3rem 2rem;
+        text-align: center;
+        min-height: 200px;
+      }
+
+      .hero h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+      }
+
+      .hero p {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+        opacity: 0.8;
+      }
+
+      .hero-btn {
+        background: #f39c12;
+        color: magenta;
+        padding: 0.5rem 2rem;
+        border: none;
+        border-radius: 12px;
+        font-size: 1rem;
+        transition: background 0.3s;
+      }
+
+      .hero-btn:hover {
+        background: #5e2c00;
       }
     </style>
   </head>
@@ -67,7 +105,7 @@
 
     <!-- Hero Section -->
     <section class="hero" id="home">
-      <h1>ยินดีต้อนรับสู ่ TechBlog</h1>
+      <h1>ยินดีต้อนรับสู่ TechBlog</h1>
       <p>บทความเทคโนโลยี และการเขียนโปรแกรมที่ทันสมัยและเป็นประโยชน์</p>
       <button class="hero-btn">อ่านบทความ</button>
     </section>
